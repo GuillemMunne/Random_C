@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Configuration
 GITHUB_TOKEN = "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"  # Set this as an environment variable
-GITHUB_REPO = "your-username/your-repo"
+GITHUB_REPO = "GuillemMunne/Random_C"
 
 # Generate dynamic release tag and name based on date/time
 current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
