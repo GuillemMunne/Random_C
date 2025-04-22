@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # Configuration
-GITHUB_TOKEN = "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"  # Set this as an environment variable
+GITHUB_TOKEN = GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Set this as an environment variable
 GITHUB_REPO = "GuillemMunne/Random_C"
 
 # Generate dynamic release tag and name based on date/time
